@@ -8,9 +8,9 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Run JMeter Tests
-        uses: ./LoadTesting.jmx
+        uses: ./
         with:
-          test-plan-path: .
+          test-plan-path: ./JMeterSample/LoadTesting.jmx
           args: ""
           
       - name: Upload Results
