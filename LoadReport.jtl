@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1673336165570,2283,HTTP Request,200,OK,Thread Group 1-1,text,true,,13964,236,1,1,https://landonhotel.com/,646,0,328
+1673336165570,652,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,552,118,1,1,http://landonhotel.com/,646,0,328
+1673336166223,1630,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,13412,118,1,1,https://landonhotel.com/,1630,0,1186
